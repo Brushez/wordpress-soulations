@@ -1,0 +1,16 @@
+ //The called constructor method for WP_Widget is deprecated since version 4.3.0! Use 
+ 
+ example of the error line 
+ 
+$this->WP_Widget('popular_searches', __(' example '), $widget_ops);
+
+
+soultion
+replace $this->WP_Widget
+
+with 
+$this->__construct
+
+
+ 
+ 
